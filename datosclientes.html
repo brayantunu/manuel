@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="sidebar">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="conductores.html">Conducores</a></li>
+            <li><a href="solicitudes.html">Solicitudes</a></li>
+            <li><a href="conductores.html">Datos Conducores</a></li>
+            <li><a href="datosclientes.html">Datos Clientes</a></li>
+            <li><a href="historial.html">Historial</a></li>
+            <li><a href="#">PQRS</a></li>
+            <li><a href="login.html">Cerrar Sesion</a></li>
+        </ul>
+      </nav>
+     
+    </div>
+  
+    <header>
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <div class="notifications">
+        <a href="#">Notificaciones</a>
+        <span class="badge">3</span>
+      </div>
+      <div class="profile">
+        <a href="#">Perfil</a>
+        <img src="" alt="Foto de perfil">
+      </div>
+    </header>
+  
+    <main>
+        <div class="card">
+            <div class="card-header">
+              <h2>Empresa 1</h2>
+            </div>
+            <div class="card-body">
+              <p><strong>Nombre:</strong> Juan Pérez</p>
+              <p><strong>Teléfono:</strong> 555-1234</p>
+              <p><strong>Calificación:</strong> <span class="star-rating"><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></span></p>
+              <p><strong>Correo electrónico:</strong> juan@empresa1.com</p>
+              <p><strong>Dirección:</strong> Calle 123, Ciudad</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn enable">Habilitar</button>
+              <button class="btn disable">Inhabilitar</button>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header">
+              <h2>Empresa 2</h2>
+            </div>
+            <div class="card-body">
+              <p><strong>Nombre:</strong> María García</p>
+              <p><strong>Teléfono:</strong> 555-5678</p>
+              <p><strong>Calificación:</strong> <span class="star-rating"><span class="star"></span><span class="star"></span><span class="star"></span><span class="star"></span></span></p>
+              <p><strong>Correo electrónico:</strong> maria@empresa2.com</p>
+              <p><strong>Dirección:</strong> Calle 456, Ciudad</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn enable">Habilitar</button>
+              <button class="btn disable">Inhabilitar</button>
+            </div>
+          </div>
+          
+          <div class="card">
+            <div class="card-header">
+              <h2>Empresa 3</h2>
+            </div>
+            <div class="card-body">
+              <p><strong>Nombre:</strong> José Rodríguez</p>
+              <p><strong>Teléfono:</strong> 555-9012</p>
+              <p><strong>Calificación:</strong> <span class="star-rating"><span class="star"></span><span class="star"></span><span class="star"></span></span></p>
+              <p><strong>Correo electrónico:</strong> jose@empresa3.com</p>
+              <p><strong>Dirección:</strong> Calle 789, Ciudad</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn enable">Habilitar</button>
+              <button class="btn disable">Inhabilitar</button>
+            </div>
+          </div>
+          
+
+          
+    </main>
+    
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+  <style>
+    .card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.card-header {
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+}
+
+.card-header h2 {
+  margin: 0;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+.star-rating {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.star {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('star.png');
+  background-size: contain;
+  cursor: pointer;
+}
+
+.star.filled {
+  background-image: url('star-filled.png');
+}
+
+.card-footer {
+  background-color: #f5f5f5;
+  padding: 10px 15px;
+  text-align: right;
+}
+
+.card-footer button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-footer .enable {
+  background-color: #00c853;
+  color: white;
+}
+
+.card-footer .disable {
+  background-color: #f44336;
+  color: white;
+}
+
+  </style>
+  
+</html>
