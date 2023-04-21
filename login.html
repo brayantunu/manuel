@@ -14,20 +14,22 @@
         <div class="row">
           <div class="col-md-6 offset-md-3">
             <form id="login-form">
-              <div class="mb-3">
-                <label for="email" class="form-label">Correo electrónico</label>
-                <input type="email" class="form-control" id="email" required>
-              </div>
-              <div class="mb-3">
-                <label for="password" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="password" required>
-              </div>
-              <div class="mb-3">
-                <div class="alert alert-danger" role="alert" id="error-message" style="display:none;">
-                  Correo electrónico o contraseña incorrectos.
+              <div class="contenido">
+                <div class="formulario">
+                  <label for="email" class="form-label">Correo electrónico</label>
+                  <input type="email" class="form-control" id="email" required>
                 </div>
+                <div class="formulario">
+                  <label for="password" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="password" required>
+                </div>
+                <div class="formulario">
+                  <div class="alert alert-danger" role="alert" id="error-message" style="display:none;">
+                    Correo electrónico o contraseña incorrectos.
+                  </div>
               </div>
-              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+              </div>
+              <button type="submit" class="btn btn-primary  login">Iniciar sesión</button>
             </form>
           </div>
         </div>
@@ -37,3 +39,8 @@
       <script src="script.js"></script>
 </body>
 </html>
+<style>
+  .row{
+    margin:auto;
+  }
+</style>
